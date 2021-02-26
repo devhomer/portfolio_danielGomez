@@ -1,10 +1,16 @@
 import './App.css';
+import 'typed.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar';
+import Body from './components/Body';
 
 function App() {
   return (
-    <Navbar />
+    <div>
+      <Navbar />
+      <Body />
+    </div>
+    
   );
 }
 

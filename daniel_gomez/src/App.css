@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.bg-fullDark {
+  background-color: #000000 !important;
+}
+
+.bg-grafitoDark {
+  background-color: #1c1c1c !important;
+}
+
+.bg{
+  background-image: url("/Users/daniel77/Documents/projects/portafolio-danielGomez/daniel_gomez/src/img/darkness.png");
+  height: 100 vh;
+  
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+body, html{
+  height: 100%;
+  background-image: url("./img/darkness.png");
+  /*background-repeat: repeat;
+  height: 100 vh;
+  background-size: cover;*/
 }
